@@ -10,8 +10,15 @@
   color: pink; }
 
 .hero-image {
-  background-image: url("../Images/Main.png");
-  background-size: cover; }
+  background-image: url("../Images/Main.jpg");
+  background-size: cover;
+  height: 400px; }
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  margin-left: 10px; }
 
 body {
   margin-left: 5px;
@@ -29,5 +36,9 @@ body {
 
 header button {
   margin-top: 20px; }
+
+header p {
+  color: white;
+  position: absolute; }
 
 /*# sourceMappingURL=main.css.map */
