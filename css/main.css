@@ -24,12 +24,35 @@ body {
   margin-left: 5px;
   margin-right: 5px; }
 
+.fa {
+  padding: 7px;
+  font-size: 15px;
+  width: 28px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px; }
+
+.fa:hover {
+  opacity: 0.7; }
+
+.fa-facebook {
+  background: #ff4da6;
+  color: white; }
+
+.fa-twitter {
+  background: #ff4da6;
+  color: white; }
+
+.fa-google {
+  background: #ff4da6;
+  color: white; }
+
 .logo-bg {
   text-align: center;
-  padding: 20px;
-  background-color: pink;
-  border: pink solid 1px;
-  border-radius: 70px; }
+  padding: 25px;
+  background-color: #ff4da6;
+  border-radius: 70px;
+  margin-bottom: none; }
 
 .dropdwn {
   display: flex; }
@@ -39,6 +62,16 @@ header button {
 
 header p {
   color: white;
-  position: absolute; }
+  font-size: 3em;
+  display: flex;
+  justify-content: center; }
+
+#bottom-border {
+  border-bottom: #ff4da6 solid 25px; }
+
+aside img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  /* For IE8 and earlier */ }
 
 /*# sourceMappingURL=main.css.map */
