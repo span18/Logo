@@ -1,3 +1,11 @@
-body {
-	background-colour: red;
+.btn {
+border: none;
+background-color: inherit;
+cursor: default;
+font-size: 15px;
+
+}
+
+/* On mouse-over */
+.btn:hover {color: pink;
 }
