@@ -1,0 +1,37 @@
+//Contains facebook, twitter, google logos.
+.fa {
+  padding: 7px;
+  font-size: 15px;
+  width: 28px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #ff4da6;
+  color: white;
+}
+
+.fa-twitter {
+  background: #ff4da6;
+  color: white;
+}
+
+.fa-google {
+  background: #ff4da6;
+  color: white;
+}
+
+.logo-bg {
+	text-align: center;
+	padding: 25px;
+	background-color: #ff4da6;
+	border-radius: 70px;
+	margin-bottom: none;
+}
