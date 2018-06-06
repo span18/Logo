@@ -15,8 +15,8 @@
   height: 400px; }
 
 body {
-  margin-left: 15px;
-  margin-right: 15px; }
+  margin-left: 5%;
+  margin-right: 5%; }
 
 header button {
   margin-top: 20px; }
@@ -39,6 +39,10 @@ main {
 
 aside img {
   margin-bottom: 2%; }
+
+.calender-position {
+  padding: 5%;
+  margin-left: 100px; }
 
 .fa {
   padding: 7px;
@@ -84,5 +88,9 @@ aside img:hover {
   opacity: 0.5;
   filter: alpha(opacity=50);
   /* For IE8 and earlier */ }
+
+article {
+  background-color: #ff9900;
+  padding: 19px; }
 
 /*# sourceMappingURL=main.css.map */
