@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -43,34 +44,67 @@
 		<div class="container">
  			<div class="row">
     			<div class="col-sm-6">
-    			<h1>Welcome Page</h1><br>
-     			 <p>Welcome to the school where high expectations in terns of learning and behaviour ensure that girls flourish.</p><br>
+    			<h1>Welcome</h1><br>
+     			 <p><strong>Welcome to the school where high expectations in terns of learning and behaviour ensure that girls flourish.</strong></p><br>
 		
 				 <p>We are now in our fantastic new building with facilities which are second to none, providing an exceptional learning environment. We are the forefront runners in this field and this can only lead to even greater achievements. We are a school where young women achieve academic excellence, where they are encouraged to participate and excel in artistic and sporting events...</p><br>
-
-				<button>Read More</button>
+				
+				<button type="button" class="welcome-button">View All</button>
     			</div>
-		<aside class="col-sm-6">
-			<div>
-    		<img src="Images/apply_for_place.jpg" alt="apply for places picture" width="170px" height="130px">
-			<img src="Images/work.jpg" alt="Picture of someone at work" width="170px" height="130px">
-			<img src="Images/Resource.jpg" alt="Picture of Resources" width="170px" height="130px">
-		</div>
-		</aside>
-  			</div>
+
+			<aside class="col-sm-6">
+				<div>
+		    		<img src="Images/apply_for_place.jpg" alt="apply for places picture" width="170px" height="130px">
+					<img src="Images/work.jpg" alt="Picture of someone at work" width="170px" height="130px">
+					<img src="Images/Resource.jpg" alt="Picture of Resources" width="170px" height="130px">
+				</div>
+			</aside>
+	  			</div>
 		</div> 
 	</main>
 						<!-- News Section -->
-	<article>
-		<header>
-			<h2>News</h2>
-		</header>
+<article>
+	<header>
+		<h2>News</h2>
+	</header>
 
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+
+		</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="Images/Resource.jpg" height="220" alt="Card image cap">
+					<img src="Images/Resource.jpg" height="220" alt="Card image cap">
+					<img src="Images/Work.jpg" height="220" alt="Third slide">
+				</div>
+			
+				<div class="carousel-item">
+					<img src="Images/Work.jpg" height="220" alt="Card image cap">
+					<img src="Images/Resource.jpg" height="220" alt="Card image cap">
+					<img src="Images/Work.jpg" height="220" alt="Third slide">
+				</div>
+	
+
+		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+</article>
+<!--
 		<div class="container">
 			<div class="row">
 			  	<div class="col-sm-4">
 			    	<div class="card">
-				  	<img class="card-img-top" <img src="\Users\Daniel\Desktop\Logo\Images/Resource.jpg" alt="Card image cap">
+				  	<img class="card-img-top" <img src="Images/Resource.jpg" alt="Card image cap">
 				  	<div class="card-body">
 				    <p class="card-text"><strong>Michelle Obama amazing impact on British schoolgirls.</strong></p>
 				  	</div>
@@ -89,9 +123,9 @@
 
 
 		<div>
-			<button class="button">View All -></button>
+			<button type="button" class="">View All</button>
 		</div>
-	</article>
+	</article>-->
 
 					 <!-- Calender Section -->
 	<section class="calender-position">
@@ -120,8 +154,9 @@
 			<p>Free day!</p>
 		  </div>
 		</div>
+	
+		<button type="button" class="button-calander">View All</button>
 
-		<button class="button">View All -></button>
 		</div>
 	</section>
 
@@ -129,53 +164,62 @@
 	<section class="twitter-info" id="padding">	
 		<div>
 			<a href="https://www.twitter.com" class="fa fa-twitter"></a>
-			<p>Twitter_name posted on 01/02/2015</p>
 		</div>
 
-		<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, error quos odit quod, molestiae labore dignissimos...</span><br>
+		<div class="text-position">
+			<p>Twitter_name posted on 01/02/2015</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, error quos odit quod, molestiae labore dignissimos...</p><br>
+		</div>
 
-		<button>Follow us</button>
+		<button class="twitter-button">Follow us</button>
 	</section>
 
 					<!-- Footer Section -->
 	<footer>
+		<div class="to-top">
+			<a href="#top">Back To Top</a>
+		</div>
+
 		<div class="container">
 			<div class="row">
-				  <div class="col-sm-4">
-					    <header>
-							<h2>Contact Us</h2>
-						</header>
-				
-						<address>
-							<p>Headteacher name</p>
-							<p>Address</p>
-							<p>T: 020 7837 0739</p>
-							<a href="">admin@email.com</a>
-						</address>
+				<div class="col-sm-4">
 
-						<header>
-							<h2>Follow Us</h2>
-						</header>
+			    <header>
+					<h2>Contact Us</h2><br>
+				</header>
+		
+				<address>
+					<p>Headteacher name</p>
+					<p>Address</p>
+					<p>T: 020 7837 0739</p>
+					<a href="">admin@email.com</a>
+				</address>
 
-						<p>TWITTER NAME</p>
- 					</div>
+				<header>
+					<h2>Follow Us</h2>
+				</header>
 
-  					<div class="col-sm-4">
-						<header>
-							<h2>Quick Links</h2>
-						</header>
-					<ol>
+					<p>TWITTER NAME</p>
+				</div>
+
+			<div class="col-sm-4">
+
+					<header>
+						<h2>Quick Links</h2>
+					</header>
+
+					<ol id="bullet-pts">
 						<li><a href="">->Ofsted report</a></li>
-						<li><a href="">->Exam results</a></li>
-						<li><a href="">->School Email</a></li>
-						<li><a href="">->Prospecuts</a></li>
-						<li><a href="">->Sith Form</a></li>
-						<li><a href="">->Newsletters</a></li>
-						<li><a href="">->CC4 Anywhere</a></li>
-						<li><a href="">->Vacancies</a></li>
-						<li><a href="">->Parent Comms</a></li>
-						<li><a href="">->Library Catalogue</a></li>
-					</ol>
+							<li><a href="">->Exam results</a></li>
+							<li><a href="">->School Email</a></li>
+							<li><a href="">->Prospecuts</a></li>
+							<li><a href="">->Sith Form</a></li>
+							<li><a href="">->Newsletters</a></li>
+							<li><a href="">->CC4 Anywhere</a></li>
+							<li><a href="">->Vacancies</a></li>
+							<li><a href="">->Parent Comms</a></li>
+							<li><a href="">->Library Catalogue</a></li>
+						</ol>
 					</div>
  
   					<div class="col-sm-4">
@@ -188,14 +232,18 @@
 
 					</div>
 				</div>
-			<div>
-				<h3><a href="#top">Back To Top</h3>
+			
+				
 				<a href="">Privacy Policy</a>
 				<a href="">Terms of Use</a>
 				<a href="">Sitemap</a>
 				<a href="">High Visibility Version</a>
 				<a href="">Coookie Usage</a>
-			</div>
+			
 	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 </body>
 </html>

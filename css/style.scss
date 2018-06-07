@@ -1,9 +1,65 @@
+//This will select multiple
+
+%button {
+ border-radius: 20px;
+	 padding: 5px;
+	 	width: 140px;
+			  	background-color: purple;
+			  	border-color: purple;
+				  	color: white;
+			  	
+}
+
+.button {
+  @extend %button;
+}
+// above code not assigned to anything
+
+$colour-pink: #ff4da6;
+$button-width: 100px;
+$button-padding: 7px;
+$button-fontsize: 10px;
+
+.welcome-button {
+	border-radius: 20px;
+	padding: $button-padding;
+	width: $button-width;
+	background-color: $colour-pink;
+	border-color: white;
+	color: white;
+	font-size: $button-fontsize;
+}
+
+.twitter-button {
+	border-radius: 20px;
+	padding: $button-padding;
+	width: $button-width;
+	background-color: #ff80bf;
+	border-color: #ff80bf;
+	color: white;
+	font-size: $button-fontsize;
+	margin-left: 5%;
+
+} 
+
+.button-calander {
+	border-radius: 20px;
+	padding: $button-padding;
+	width: $button-width;
+	margin-left: 40%;
+	background-color: purple;
+	border-color: purple;
+	color: white;
+	font-size: $button-fontsize;
+
+} 
+
 .twitter-info {
-	background-color: #ff4da6;
+	background-color: $colour-pink;
 }
 
 #bottom-border {
-border-bottom: #ff4da6 solid 25px;	
+border-bottom: $colour-pink solid 25px;
 }
 
 aside {

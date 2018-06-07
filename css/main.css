@@ -1,4 +1,7 @@
 @import url(reset.css);
+body {
+  font-family: "Open Sans", sans-serif, Times New Roman; }
+
 .btn {
   border: none;
   background-color: inherit;
@@ -13,8 +16,20 @@ footer {
   color: white; }
 
 footer a {
-  text-decoration: none;
   color: white; }
+
+.calender-position {
+  color: purple; }
+
+main h1 {
+  color: #ff4da6; }
+
+section {
+  color: white; }
+
+.to-top {
+  font-size: 10px;
+  text-align: center; }
 
 .hero-image {
   background-image: url("../Images/Main.jpg");
@@ -54,9 +69,15 @@ aside img {
 #padding {
   padding: 40px; }
 
+.text-position {
+  margin-left: 5%; }
+
 footer {
   padding: 40px;
   padding-left: 90px; }
+
+article {
+  background: black; }
 
 .fa {
   padding: 7px;
@@ -73,6 +94,9 @@ footer {
   background: #ff4da6;
   color: white; }
 
+section .fa-twitter {
+  background: #ff80bf; }
+
 .fa-twitter {
   background: #ff4da6;
   color: white; }
@@ -82,11 +106,48 @@ footer {
   color: white; }
 
 .logo-bg {
-  text-align: center;
-  padding: 25px;
+  position: absolute;
+  padding: 20px;
   background-color: #ff4da6;
   border-radius: 70px;
   margin-bottom: none; }
+
+.button {
+  border-radius: 20px;
+  padding: 5px;
+  width: 140px;
+  background-color: purple;
+  border-color: purple;
+  color: white; }
+
+.welcome-button {
+  border-radius: 20px;
+  padding: 7px;
+  width: 100px;
+  background-color: #ff4da6;
+  border-color: white;
+  color: white;
+  font-size: 10px; }
+
+.twitter-button {
+  border-radius: 20px;
+  padding: 7px;
+  width: 100px;
+  background-color: #ff80bf;
+  border-color: #ff80bf;
+  color: white;
+  font-size: 10px;
+  margin-left: 5%; }
+
+.button-calander {
+  border-radius: 20px;
+  padding: 7px;
+  width: 100px;
+  margin-left: 40%;
+  background-color: purple;
+  border-color: purple;
+  color: white;
+  font-size: 10px; }
 
 .twitter-info {
   background-color: #ff4da6; }

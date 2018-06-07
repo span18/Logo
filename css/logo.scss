@@ -14,24 +14,28 @@
 }
 
 .fa-facebook {
-  background: #ff4da6;
+  background: $colour-pink;
   color: white;
 }
 
+section .fa-twitter {
+  background: #ff80bf;
+}
+
 .fa-twitter {
-  background: #ff4da6;
+  background: $colour-pink;
   color: white;
 }
 
 .fa-google {
-  background: #ff4da6;
+  background: $colour-pink;
   color: white;
 }
 
 .logo-bg {
-	text-align: center;
-	padding: 25px;
-	background-color: #ff4da6;
+  position: absolute;
+	padding: 20px;
+	background-color: $colour-pink;
 	border-radius: 70px;
 	margin-bottom: none;
 }
