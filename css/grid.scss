@@ -1,3 +1,6 @@
+$padding: 40px;
+$margin-left: 10%;
+
 body {
 	margin-left: 5%;
 	margin-right: 5%;
@@ -6,6 +9,7 @@ body {
 header button {
 	margin-top: 20px;
 }
+
 .column {
     float: left;
     width: 25%;
@@ -23,7 +27,7 @@ header p {
 }
 
 main {
-	padding: 50px;
+	padding: $padding;
 }
 
 aside img{
@@ -32,7 +36,16 @@ aside img{
 }
 
 .calender-position {
-	padding: 5%;
-	margin-left: 100px;
+	padding: $padding;
+	margin-left: $margin-left;
+}
+
+#padding {
+	padding: $padding;
+}
+
+footer {
+	padding: $padding;
+	padding-left: 90px;
 }
 

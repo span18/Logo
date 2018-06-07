@@ -4,39 +4,5 @@
 @import "grid.scss";
 @import "logo.scss";
 @import "carousel.scss";
-
-
-.twitter-info {
-	background-color: #ff4da6;
-}
-
-
-header p {
-	color: white;
-	font-size: 3em;
-}
-
-#bottom-border {
-border-bottom: #ff4da6 solid 25px;	
-}
-
-aside {
-	img:hover {
-    opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
-}
-}
-
-article {
-	background-color: #ff9900;
-	padding: 19px;
-}
-
-
-
-
-
-
-
-
+@import "style.scss";
 

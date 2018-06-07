@@ -1,3 +1,5 @@
+$color-white: white;  
+
 .btn {
 border: none;
 background-color: inherit;
@@ -7,5 +9,15 @@ font-size: 15px;
 }
 
 /* On mouse-over */
-.btn:hover {color: pink;
+.btn:hover {
+	color: pink;
+}
+
+footer {
+	color: $color-white;
+}
+
+footer a {
+	text-decoration: none;
+	color: $color-white;
 }
