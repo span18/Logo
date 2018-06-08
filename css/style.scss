@@ -1,20 +1,3 @@
-//This will select multiple
-
-%button {
- border-radius: 20px;
-	 padding: 5px;
-	 	width: 140px;
-			  	background-color: purple;
-			  	border-color: purple;
-				  	color: white;
-			  	
-}
-
-.button {
-  @extend %button;
-}
-// above code not assigned to anything
-
 $colour-pink: #ff4da6;
 $button-width: 100px;
 $button-padding: 7px;
@@ -40,13 +23,13 @@ $button-fontsize: 10px;
 	font-size: $button-fontsize;
 	margin-left: 5%;
 
-} 
+}
 
 .button-calander {
 	border-radius: 20px;
 	padding: $button-padding;
 	width: $button-width;
-	margin-left: 40%;
+	margin-left: 39%;
 	background-color: purple;
 	border-color: purple;
 	color: white;
@@ -62,7 +45,7 @@ $button-fontsize: 10px;
 	color: white;
 	font-size: $button-fontsize;
 
-} 
+}
 
 .twitter-info {
 	background-color: $colour-pink;
@@ -81,11 +64,23 @@ aside {
 
 article {
 	background-color: #ff9900;
-	padding: 19px;
+	padding: 35px;
 }
 
 footer {
 	background-color: #4d4d4d;
 	border-top: white solid 15px;
 	border-bottom: white solid 10px;
+}
+
+.button-news {
+	border-radius: 20px;
+	padding: $button-padding;
+	width: $button-width;
+	margin-top: 5%;
+	margin-left: 45%;
+	background-color: purple;
+	border-color: purple;
+	color: white;
+	font-size: $button-fontsize;
 }

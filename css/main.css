@@ -2,6 +2,12 @@
 body {
   font-family: "Open Sans", sans-serif, Times New Roman; }
 
+header h3 {
+  color: white; }
+
+header h2 {
+  color: white; }
+
 .btn {
   border: none;
   background-color: inherit;
@@ -34,7 +40,10 @@ section {
 .hero-image {
   background-image: url("../Images/Main.jpg");
   background-size: cover;
-  height: 400px; }
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; }
 
 body {
   margin-left: 5%;
@@ -112,13 +121,20 @@ section .fa-twitter {
   border-radius: 70px;
   margin-bottom: none; }
 
-.button {
-  border-radius: 20px;
-  padding: 5px;
-  width: 140px;
-  background-color: purple;
-  border-color: purple;
-  color: white; }
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 40px;
+  left: 0;
+  z-index: 15;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none; }
 
 .welcome-button {
   border-radius: 20px;
@@ -143,7 +159,7 @@ section .fa-twitter {
   border-radius: 20px;
   padding: 7px;
   width: 100px;
-  margin-left: 40%;
+  margin-left: 39%;
   background-color: purple;
   border-color: purple;
   color: white;
@@ -169,11 +185,22 @@ aside img:hover {
 
 article {
   background-color: #ff9900;
-  padding: 19px; }
+  padding: 35px; }
 
 footer {
   background-color: #4d4d4d;
   border-top: white solid 15px;
   border-bottom: white solid 10px; }
+
+.button-news {
+  border-radius: 20px;
+  padding: 7px;
+  width: 100px;
+  margin-top: 5%;
+  margin-left: 45%;
+  background-color: purple;
+  border-color: purple;
+  color: white;
+  font-size: 10px; }
 
 /*# sourceMappingURL=main.css.map */
