@@ -8,9 +8,9 @@ $button-fontsize: 10px;
 	padding: $button-padding;
 	width: $button-width;
 	background-color: $colour-pink;
-	border-color: white;
 	color: white;
 	font-size: $button-fontsize;
+
 }
 
 .twitter-button {
@@ -18,7 +18,6 @@ $button-fontsize: 10px;
 	padding: $button-padding;
 	width: $button-width;
 	background-color: #ff80bf;
-	border-color: #ff80bf;
 	color: white;
 	font-size: $button-fontsize;
 	margin-left: 5%;
@@ -31,7 +30,6 @@ $button-fontsize: 10px;
 	width: $button-width;
 	margin-left: 39%;
 	background-color: purple;
-	border-color: purple;
 	color: white;
 	font-size: $button-fontsize;
 
@@ -49,10 +47,12 @@ $button-fontsize: 10px;
 
 .twitter-info {
 	background-color: $colour-pink;
+
 }
 
 #bottom-border {
 border-bottom: $colour-pink solid 25px;
+
 }
 
 aside {

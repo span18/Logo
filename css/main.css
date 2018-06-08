@@ -19,7 +19,8 @@ header h2 {
   color: pink; }
 
 footer {
-  color: white; }
+  color: white;
+  font-size: 13px; }
 
 footer a {
   color: white; }
@@ -40,7 +41,7 @@ section {
 .hero-image {
   background-image: url("../Images/Main.jpg");
   background-size: cover;
-  height: 400px;
+  height: 550px;
   display: flex;
   justify-content: center;
   align-items: flex-end; }
@@ -105,7 +106,9 @@ article {
   color: white; }
 
 section .fa-twitter {
-  background: #ff80bf; }
+  background: #ff80bf;
+  height: 40px;
+  width: 40px; }
 
 .fa-twitter {
   background: #ff4da6;
@@ -121,6 +124,10 @@ section .fa-twitter {
   background-color: #ff4da6;
   border-radius: 70px;
   margin-bottom: none; }
+
+.color-pink {
+  color: #ff4da6;
+  backgound-color: red; }
 
 .carousel-indicators {
   position: absolute;
@@ -142,7 +149,6 @@ section .fa-twitter {
   padding: 7px;
   width: 100px;
   background-color: #ff4da6;
-  border-color: white;
   color: white;
   font-size: 10px; }
 
@@ -151,7 +157,6 @@ section .fa-twitter {
   padding: 7px;
   width: 100px;
   background-color: #ff80bf;
-  border-color: #ff80bf;
   color: white;
   font-size: 10px;
   margin-left: 5%; }
@@ -162,7 +167,6 @@ section .fa-twitter {
   width: 100px;
   margin-left: 39%;
   background-color: purple;
-  border-color: purple;
   color: white;
   font-size: 10px; }
 

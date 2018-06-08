@@ -20,6 +20,8 @@
 
 section .fa-twitter {
   background: #ff80bf;
+  height: 40px;
+  width: 40px;
 }
 
 .fa-twitter {
@@ -38,4 +40,9 @@ section .fa-twitter {
 	background-color: $colour-pink;
 	border-radius: 70px;
 	margin-bottom: none;
+}
+
+.color-pink {
+  color: $colour-pink;
+  backgound-color: red;
 }
