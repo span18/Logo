@@ -149,6 +149,14 @@ section .fa-twitter {
   color: white;
   font-size: 10px; }
 
+.button-map {
+  border-radius: 20px;
+  padding: 7px;
+  width: 100px;
+  background-color: #a6a6a6;
+  color: white;
+  font-size: 10px; }
+
 .twitter-info {
   background-color: #ff4da6; }
 

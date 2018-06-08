@@ -52,6 +52,16 @@ $button-fontsize: 10px;
 	color: white;
 	font-size: $button-fontsize;
 
+}
+
+.button-map {
+	border-radius: 20px;
+	padding: $button-padding;
+	width: $button-width;
+	background-color: #a6a6a6;
+	color: white;
+	font-size: $button-fontsize;
+
 } 
 
 .twitter-info {
