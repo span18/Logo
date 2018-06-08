@@ -125,10 +125,6 @@ section .fa-twitter {
   border-radius: 70px;
   margin-bottom: none; }
 
-.color-pink {
-  color: #ff4da6;
-  backgound-color: red; }
-
 .carousel-indicators {
   position: absolute;
   right: 0;
